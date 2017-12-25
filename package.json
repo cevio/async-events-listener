@@ -1,0 +1,10 @@
+{
+  "name": "async-events-listener",
+  "version": "1.0.0",
+  "description": "async-events-listener",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:cevio/async-events-listener.git"
+  }
+}
