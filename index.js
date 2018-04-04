@@ -142,7 +142,7 @@ EventEmitter.prototype.remit = async function (type) {
     listeners = handler.slice();
     len = listeners.length;
     while (len--) {
-      await listeners[i].apply(this, args);
+      await listeners[len].apply(this, args);
     }
   }
 
